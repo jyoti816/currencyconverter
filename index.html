@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Currency Converter</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		
+		
+	
+		.btn1{
+              height: 100px;
+              width: 600px;
+              font-size: 50px;
+			  
+              
+              background-color: rgb(26, 9, 49);
+              
+              color: white;
+		}
+		.content{
+			background-color: rgb(26, 9, 49);
+			height: 470px;
+			text-align: center;
+			margin: auto;
+		}
+		.frm1{
+			text-align: left;
+			margin: auto 300px;
+			padding-top: 100px;
+		}
+		
+		td{
+			color: white;
+			font-size: 20px;
+		}
+		td,input{
+			font-size: 15px;
+		}
+		
+
+  .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: left;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+
+
+	</style>
+</head>
+<body>
+	
+<div class="one">
+	<div class="two">
+		<button class="btn1">Currency Converter 2021</button>
+	</div>
+<div class="content">
+	
+<form class="frm1" name="converter">	
+<table style="text-align: left; margin: auto;" border="2px solid">
+    
+<tr>
+<td colspan="2"><b>BDT :</b> 
+<input id="currency" type="number" name ="bdt" ></br> 
+<input type="button" Value = "Click & Convert" onclick="currencyConverter(converter.bdt.value)">
+</td>
+</tr>
+
+
+<tr>   
+<td><b> USD :</b></td>
+<td><input id="dollar" "></td>
+</tr>
+
+<tr>
+	<td><b>EURO :</b></td>
+	<td> <input id="euro" ></td>
+	</tr>
+	
+
+<tr>
+<td><b>YEN :</b></td>
+<td><input id="inr" ></td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</table>
+</form>
+</div>
+<script src="js/main.js"></script>
+
